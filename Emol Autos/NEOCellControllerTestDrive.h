@@ -1,0 +1,17 @@
+//
+//  NEOCellControllerTestDrive.h
+//  Emol Autos
+//
+//  Created by Nicolas Rubilar on 26-07-13.
+//  Copyright (c) 2013 com.neonline. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface NEOCellControllerTestDrive : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *descentTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *imageTestDrive;
+
+@end

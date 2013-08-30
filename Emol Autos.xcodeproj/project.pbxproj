@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C05EA2517A2C71700005967 /* NEOTableControllerTestDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C05EA2417A2C71700005967 /* NEOTableControllerTestDrive.m */; };
+		0C05EA2817A2C99B00005967 /* NEOCellControllerTestDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C05EA2717A2C99B00005967 /* NEOCellControllerTestDrive.m */; };
+		0C6D325F1798AAC500758142 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D325E1798AAC500758142 /* UIKit.framework */; };
+		0C6D32611798AAC500758142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D32601798AAC500758142 /* Foundation.framework */; };
+		0C6D32631798AAC500758142 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6D32621798AAC500758142 /* CoreGraphics.framework */; };
+		0C6D32691798AAC500758142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D32671798AAC500758142 /* InfoPlist.strings */; };
+		0C6D326B1798AAC500758142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D326A1798AAC500758142 /* main.m */; };
+		0C6D326F1798AAC500758142 /* NEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D326E1798AAC500758142 /* NEOAppDelegate.m */; };
+		0C6D32711798AAC500758142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D32701798AAC500758142 /* Default.png */; };
+		0C6D32731798AAC500758142 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D32721798AAC500758142 /* Default@2x.png */; };
+		0C6D32751798AAC500758142 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D32741798AAC500758142 /* Default-568h@2x.png */; };
+		0C6D32781798AAC500758142 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D32761798AAC500758142 /* MainStoryboard.storyboard */; };
+		0C6D32831798AE4100758142 /* NEODetailControllerCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D32821798AE4100758142 /* NEODetailControllerCar.m */; };
+		0C6D32861798B44B00758142 /* NEOTableControllerCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D32851798B44B00758142 /* NEOTableControllerCar.m */; };
+		0C6D32891798B78A00758142 /* NEOCellControllerCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6D32881798B78A00758142 /* NEOCellControllerCar.m */; };
+		0C6D328F1798CBBF00758142 /* impreza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C6D328E1798CBBF00758142 /* impreza.jpg */; };
+		0CAA9A2017A19413007DAF54 /* NEOTableControllerNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAA9A1F17A19413007DAF54 /* NEOTableControllerNews.m */; };
+		0CC44B3317A1D9DD0077E402 /* img_noticia2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */; };
+		0CC44B3417A1D9DD0077E402 /* img_noticia3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */; };
+		0CC44B3517A1D9DD0077E402 /* img_noticia1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */; };
+		0CC44B3817A1DAF90077E402 /* NEOCellControllerNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC44B3717A1DAF90077E402 /* NEOCellControllerNews.m */; };
+		0CC44B3B17A1E1250077E402 /* NEODetailControllerNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC44B3A17A1E1250077E402 /* NEODetailControllerNews.m */; };
+		0CEBD12417A86D0900AEB4AD /* NEODetailControllerTestDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBD12317A86D0900AEB4AD /* NEODetailControllerTestDrive.m */; };
+		0CF114AB17A00C8D00145378 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CF114AA17A00C8D00145378 /* img2.jpg */; };
+		0CF114AD17A00CAE00145378 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CF114AC17A00CAE00145378 /* img1.jpg */; };
+		0CF114AF17A00CB600145378 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CF114AE17A00CB600145378 /* img3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C05EA2317A2C71700005967 /* NEOTableControllerTestDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOTableControllerTestDrive.h; sourceTree = "<group>"; };
+		0C05EA2417A2C71700005967 /* NEOTableControllerTestDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOTableControllerTestDrive.m; sourceTree = "<group>"; };
+		0C05EA2617A2C99B00005967 /* NEOCellControllerTestDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCellControllerTestDrive.h; sourceTree = "<group>"; };
+		0C05EA2717A2C99B00005967 /* NEOCellControllerTestDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCellControllerTestDrive.m; sourceTree = "<group>"; };
+		0C6D325B1798AAC500758142 /* Emol Autos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emol Autos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6D325E1798AAC500758142 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C6D32601798AAC500758142 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C6D32621798AAC500758142 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C6D32661798AAC500758142 /* Emol Autos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emol Autos-Info.plist"; sourceTree = "<group>"; };
+		0C6D32681798AAC500758142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C6D326A1798AAC500758142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C6D326C1798AAC500758142 /* Emol Autos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emol Autos-Prefix.pch"; sourceTree = "<group>"; };
+		0C6D326D1798AAC500758142 /* NEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEOAppDelegate.h; sourceTree = "<group>"; };
+		0C6D326E1798AAC500758142 /* NEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEOAppDelegate.m; sourceTree = "<group>"; };
+		0C6D32701798AAC500758142 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0C6D32721798AAC500758142 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0C6D32741798AAC500758142 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0C6D32771798AAC500758142 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0C6D32811798AE4100758142 /* NEODetailControllerCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODetailControllerCar.h; sourceTree = "<group>"; };
+		0C6D32821798AE4100758142 /* NEODetailControllerCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODetailControllerCar.m; sourceTree = "<group>"; };
+		0C6D32841798B44B00758142 /* NEOTableControllerCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOTableControllerCar.h; sourceTree = "<group>"; };
+		0C6D32851798B44B00758142 /* NEOTableControllerCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOTableControllerCar.m; sourceTree = "<group>"; };
+		0C6D32871798B78A00758142 /* NEOCellControllerCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCellControllerCar.h; sourceTree = "<group>"; };
+		0C6D32881798B78A00758142 /* NEOCellControllerCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCellControllerCar.m; sourceTree = "<group>"; };
+		0C6D328E1798CBBF00758142 /* impreza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impreza.jpg; sourceTree = "<group>"; };
+		0CAA9A1E17A19413007DAF54 /* NEOTableControllerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NEOTableControllerNews.h; path = ../NEOTableControllerNews.h; sourceTree = "<group>"; };
+		0CAA9A1F17A19413007DAF54 /* NEOTableControllerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NEOTableControllerNews.m; path = ../NEOTableControllerNews.m; sourceTree = "<group>"; };
+		0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_noticia2.jpg; sourceTree = "<group>"; };
+		0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_noticia3.jpg; sourceTree = "<group>"; };
+		0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_noticia1.jpg; sourceTree = "<group>"; };
+		0CC44B3617A1DAF90077E402 /* NEOCellControllerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCellControllerNews.h; sourceTree = "<group>"; };
+		0CC44B3717A1DAF90077E402 /* NEOCellControllerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCellControllerNews.m; sourceTree = "<group>"; };
+		0CC44B3917A1E1250077E402 /* NEODetailControllerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODetailControllerNews.h; sourceTree = "<group>"; };
+		0CC44B3A17A1E1250077E402 /* NEODetailControllerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODetailControllerNews.m; sourceTree = "<group>"; };
+		0CEBD12217A86D0900AEB4AD /* NEODetailControllerTestDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODetailControllerTestDrive.h; sourceTree = "<group>"; };
+		0CEBD12317A86D0900AEB4AD /* NEODetailControllerTestDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODetailControllerTestDrive.m; sourceTree = "<group>"; };
+		0CF114AA17A00C8D00145378 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		0CF114AC17A00CAE00145378 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		0CF114AE17A00CB600145378 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C6D32581798AAC500758142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6D325F1798AAC500758142 /* UIKit.framework in Frameworks */,
+				0C6D32611798AAC500758142 /* Foundation.framework in Frameworks */,
+				0C6D32631798AAC500758142 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6D32521798AAC500758142 = {
+			isa = PBXGroup;
+			children = (
+				0C6D32641798AAC500758142 /* Emol Autos */,
+				0C6D325D1798AAC500758142 /* Frameworks */,
+				0C6D325C1798AAC500758142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C6D325C1798AAC500758142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6D325B1798AAC500758142 /* Emol Autos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C6D325D1798AAC500758142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6D325E1798AAC500758142 /* UIKit.framework */,
+				0C6D32601798AAC500758142 /* Foundation.framework */,
+				0C6D32621798AAC500758142 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C6D32641798AAC500758142 /* Emol Autos */ = {
+			isa = PBXGroup;
+			children = (
+				0C6D328E1798CBBF00758142 /* impreza.jpg */,
+				0CF114AC17A00CAE00145378 /* img1.jpg */,
+				0CF114AA17A00C8D00145378 /* img2.jpg */,
+				0CF114AE17A00CB600145378 /* img3.jpg */,
+				0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */,
+				0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */,
+				0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */,
+				0C6D326D1798AAC500758142 /* NEOAppDelegate.h */,
+				0C6D326E1798AAC500758142 /* NEOAppDelegate.m */,
+				0C6D32761798AAC500758142 /* MainStoryboard.storyboard */,
+				0C6D32841798B44B00758142 /* NEOTableControllerCar.h */,
+				0C6D32851798B44B00758142 /* NEOTableControllerCar.m */,
+				0C6D32871798B78A00758142 /* NEOCellControllerCar.h */,
+				0C6D32881798B78A00758142 /* NEOCellControllerCar.m */,
+				0C6D32811798AE4100758142 /* NEODetailControllerCar.h */,
+				0C6D32821798AE4100758142 /* NEODetailControllerCar.m */,
+				0CAA9A1E17A19413007DAF54 /* NEOTableControllerNews.h */,
+				0CAA9A1F17A19413007DAF54 /* NEOTableControllerNews.m */,
+				0CC44B3617A1DAF90077E402 /* NEOCellControllerNews.h */,
+				0CC44B3717A1DAF90077E402 /* NEOCellControllerNews.m */,
+				0CC44B3917A1E1250077E402 /* NEODetailControllerNews.h */,
+				0CC44B3A17A1E1250077E402 /* NEODetailControllerNews.m */,
+				0C05EA2317A2C71700005967 /* NEOTableControllerTestDrive.h */,
+				0C05EA2417A2C71700005967 /* NEOTableControllerTestDrive.m */,
+				0C05EA2617A2C99B00005967 /* NEOCellControllerTestDrive.h */,
+				0C05EA2717A2C99B00005967 /* NEOCellControllerTestDrive.m */,
+				0CEBD12217A86D0900AEB4AD /* NEODetailControllerTestDrive.h */,
+				0CEBD12317A86D0900AEB4AD /* NEODetailControllerTestDrive.m */,
+				0C6D32651798AAC500758142 /* Supporting Files */,
+			);
+			path = "Emol Autos";
+			sourceTree = "<group>";
+		};
+		0C6D32651798AAC500758142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C6D32661798AAC500758142 /* Emol Autos-Info.plist */,
+				0C6D32671798AAC500758142 /* InfoPlist.strings */,
+				0C6D326A1798AAC500758142 /* main.m */,
+				0C6D326C1798AAC500758142 /* Emol Autos-Prefix.pch */,
+				0C6D32701798AAC500758142 /* Default.png */,
+				0C6D32721798AAC500758142 /* Default@2x.png */,
+				0C6D32741798AAC500758142 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C6D325A1798AAC500758142 /* Emol Autos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6D327E1798AAC500758142 /* Build configuration list for PBXNativeTarget "Emol Autos" */;
+			buildPhases = (
+				0C6D32571798AAC500758142 /* Sources */,
+				0C6D32581798AAC500758142 /* Frameworks */,
+				0C6D32591798AAC500758142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emol Autos";
+			productName = "Emol Autos";
+			productReference = 0C6D325B1798AAC500758142 /* Emol Autos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C6D32531798AAC500758142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NEO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.neonline;
+			};
+			buildConfigurationList = 0C6D32561798AAC500758142 /* Build configuration list for PBXProject "Emol Autos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C6D32521798AAC500758142;
+			productRefGroup = 0C6D325C1798AAC500758142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C6D325A1798AAC500758142 /* Emol Autos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C6D32591798AAC500758142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6D32691798AAC500758142 /* InfoPlist.strings in Resources */,
+				0C6D32711798AAC500758142 /* Default.png in Resources */,
+				0C6D32731798AAC500758142 /* Default@2x.png in Resources */,
+				0C6D32751798AAC500758142 /* Default-568h@2x.png in Resources */,
+				0C6D32781798AAC500758142 /* MainStoryboard.storyboard in Resources */,
+				0C6D328F1798CBBF00758142 /* impreza.jpg in Resources */,
+				0CF114AB17A00C8D00145378 /* img2.jpg in Resources */,
+				0CF114AD17A00CAE00145378 /* img1.jpg in Resources */,
+				0CF114AF17A00CB600145378 /* img3.jpg in Resources */,
+				0CC44B3317A1D9DD0077E402 /* img_noticia2.jpg in Resources */,
+				0CC44B3417A1D9DD0077E402 /* img_noticia3.jpg in Resources */,
+				0CC44B3517A1D9DD0077E402 /* img_noticia1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C6D32571798AAC500758142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6D326B1798AAC500758142 /* main.m in Sources */,
+				0C6D326F1798AAC500758142 /* NEOAppDelegate.m in Sources */,
+				0C6D32831798AE4100758142 /* NEODetailControllerCar.m in Sources */,
+				0C6D32861798B44B00758142 /* NEOTableControllerCar.m in Sources */,
+				0C6D32891798B78A00758142 /* NEOCellControllerCar.m in Sources */,
+				0CAA9A2017A19413007DAF54 /* NEOTableControllerNews.m in Sources */,
+				0CC44B3817A1DAF90077E402 /* NEOCellControllerNews.m in Sources */,
+				0CC44B3B17A1E1250077E402 /* NEODetailControllerNews.m in Sources */,
+				0C05EA2517A2C71700005967 /* NEOTableControllerTestDrive.m in Sources */,
+				0C05EA2817A2C99B00005967 /* NEOCellControllerTestDrive.m in Sources */,
+				0CEBD12417A86D0900AEB4AD /* NEODetailControllerTestDrive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C6D32671798AAC500758142 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C6D32681798AAC500758142 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C6D32761798AAC500758142 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C6D32771798AAC500758142 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C6D327C1798AAC500758142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C6D327D1798AAC500758142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C6D327F1798AAC500758142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emol Autos/Emol Autos-Prefix.pch";
+				INFOPLIST_FILE = "Emol Autos/Emol Autos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C6D32801798AAC500758142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emol Autos/Emol Autos-Prefix.pch";
+				INFOPLIST_FILE = "Emol Autos/Emol Autos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6D32561798AAC500758142 /* Build configuration list for PBXProject "Emol Autos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6D327C1798AAC500758142 /* Debug */,
+				0C6D327D1798AAC500758142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6D327E1798AAC500758142 /* Build configuration list for PBXNativeTarget "Emol Autos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6D327F1798AAC500758142 /* Debug */,
+				0C6D32801798AAC500758142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C6D32531798AAC500758142 /* Project object */;
+}
