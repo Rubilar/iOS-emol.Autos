@@ -46,6 +46,12 @@
     [refreshControl addTarget:self action:@selector(refreshTableview) forControlEvents:UIControlEventValueChanged];
     [self.tableView addSubview:refreshControl];
     
+    
+    UIImage *image = [UIImage imageNamed:@"galeria.png"];
+     buttonStyle = [[UIBarButtonItem alloc]initWithImage:image  style:UIBarButtonItemStyleBordered target:self action:@selector(btnListPressed:)];
+    self.navigationItem.leftBarButtonItem = buttonStyle;
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
     
     
@@ -140,7 +146,13 @@
     
     cell.model.text = [arrayModel objectAtIndex:indexPath.row];
     cell.brand.text = [NSString stringWithFormat:@"%@ %@", [arrayBrand objectAtIndex:indexPath.row], [arrayModel objectAtIndex:indexPath.row]];
-    cell.price.text = [NSString stringWithFormat:@"$%@" ,[arrayPrice objectAtIndex:indexPath.row]];
+    
+    int value = [[arrayPrice objectAtIndex:indexPath.row] intValue];
+    
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    
+    cell.price.text = [NSString stringWithFormat:@"$%@" ,[[formatter stringFromNumber:[arrayPrice objectAtIndex:indexPath.row]] stringByReplacingOccurrencesOfString:@"," withString:@"."]];
     
     
     cell.year.text = [NSString stringWithFormat:@"%@ %@" ,@"Año ",[arrayYear objectAtIndex:indexPath.row]];
@@ -169,6 +181,40 @@
     
     [self.navigationController pushViewController:detail animated:YES];
     
+}
+
+-(IBAction)btnListPressed:(id)sender{
+    CGRect destination = mainView.frame;
+    
+    if (destination.origin.x > 0) {
+        destination.origin.x = 0;
+    } else {
+        destination.origin.x += 255;
+    }
+    
+    [UIView animateWithDuration:0.25 animations:^{
+        
+        mainView.frame = destination;
+        
+    } completion:^(BOOL finished) {
+        CGRect destination = mainView.frame;
+        destination.origin.x -= 7;
+        [UIView animateWithDuration:0.10 animations:^{
+            mainView.frame = destination;
+        }
+                         completion:^(BOOL finished){
+                             CGRect destination = mainView.frame;
+                             destination.origin.x += 7;
+                             [UIView animateWithDuration:0.10 animations:^{
+                                 mainView.frame = destination;
+                             }
+                                              completion:^(BOOL finished){
+                                                  // do something
+                                              }];
+                         }];
+        //mainView.userInteractionEnabled = !(destination.origin.x > 0);
+        
+    }];
 }
 
 @end

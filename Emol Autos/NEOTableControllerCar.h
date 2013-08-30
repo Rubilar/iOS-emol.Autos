@@ -18,6 +18,9 @@
     NSMutableArray *arrayKms;
     NSMutableArray *arrayAviso;
     
+    IBOutlet UIBarButtonItem *buttonStyle;
+    IBOutlet UIView *mainView, *leftView;
+    
 }
 
 @property(nonatomic, retain)NSArray *datasource;
