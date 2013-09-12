@@ -27,8 +27,10 @@
 }
 - (void)viewDidLoad
 {
-    [self setupArray];
-    [super viewDidLoad];
+    
+    arrayTitle      = [[NSMutableArray alloc] init];
+    arrayDescentTitle      = [[NSMutableArray alloc] init];
+    arrayImageNews   = [[NSMutableArray alloc] init];
     
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -39,18 +41,70 @@
     [self.tableView addSubview:refreshControl];
     
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        //code executed in the background
+        //2
+        NSData* kivaData = [NSData dataWithContentsOfURL:
+                            [NSURL URLWithString:@"http://club.mersap.com/emol_automovil_merge/json_noticias.php"]
+                            ];
+        //3
+        NSDictionary* json = nil;
+        if (kivaData) {
+            json = [NSJSONSerialization
+                    JSONObjectWithData:kivaData
+                    options:kNilOptions
+                    error:nil];
+        }
+        
+        //4
+        dispatch_async(dispatch_get_main_queue(), ^{
+            //code executed on the main queue
+            //5
+            [self updateUIWithDictionary: json];
+        });
+        
+    });
+    
+    [super viewDidLoad];
+    
+    [self.tableView reloadData];
+    [refreshControl endRefreshing];
+    
 }
+
+
+-(void)updateUIWithDictionary:(NSDictionary*)json {
+    
+    @try {
+        
+        for(int i=0; i<20;i++){
+            
+            [arrayTitle addObject:json[@"titulo_noticia"][i][@"_source"][@"aviso"][@"Marca"]];
+            [arrayDescentTitle addObject:json[@"hits"][@"hits"][i][@"_source"][@"aviso"][@"Modelo"]];
+            [arrayImageNews addObject:json[@"hits"][@"hits"][i][@"_source"][@"aviso"][@"imagen"]];
+
+        }
+        
+    }
+    @catch (NSException *exception) {
+        [[[UIAlertView alloc] initWithTitle:@"Error"
+                                    message:@"Could not parse the JSON feed."
+                                   delegate:nil
+                          cancelButtonTitle:@"Close"
+                          otherButtonTitles: nil] show];
+        NSLog(@"Exception: %@", exception);
+    }
+    
+    
+    [self.tableView reloadData];
+}
+
+
 -(void)refreshTableview
 {
     [self.tableView reloadData];
     [refreshControl endRefreshing];
-}
-
--(void)setupArray
-{
-    arrayTitle = [[NSArray alloc]initWithObjects:@"Renuevan el 308", @"Peugeot 208 GTi y XY", @"Nissan, lanzamiento regional", nil];
-    arrayDescentTitle = [[NSArray alloc]initWithObjects:@"Peugeot dio a conocer el renovado 308 construido en la nueva plataforma de PSA. Se ha reducido su altura y se ha aumentado la distancia entre ejes.", @"Peugeot presenta en Chile las dos versiones más atrevidas del exitoso compacto de origen francés.", @"Este mes llegará a Chile el nuevo hatchback de Nissan. En versiones Sense y Advance, este vehículo conquista por su comodidad y eficiencia.", nil];
-    arrayImageNews = [[NSArray alloc]initWithObjects:@"img_noticia1.jpg", @"img_noticia2.jpg", @"img_noticia3.jpg", nil];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -70,7 +124,13 @@
     
     cell.title.text = [arrayTitle objectAtIndex:indexPath.row];
     cell.descentTitle.text = [arrayDescentTitle objectAtIndex:indexPath.row];
-    cell.imageNews.image = [UIImage imageNamed:[arrayImageNews objectAtIndex:indexPath.row]];
+    
+    if([arrayImageNews objectAtIndex:indexPath.row]){
+        
+        NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: [NSString stringWithFormat:@"%@" ,[arrayImageNews objectAtIndex:indexPath.row]]]];
+        cell.imageNews.image = [UIImage imageWithData: imageData];
+        
+    }
 
     
     return cell;

@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface NEOTableControllerNews : UITableViewController<UITableViewDelegate, UITableViewDataSource>{
-    NSArray *arrayTitle;
-    NSArray *arrayDescentTitle;
-    NSArray *arrayImageNews;
+    NSMutableArray *arrayTitle;
+    NSMutableArray *arrayDescentTitle;
+    NSMutableArray *arrayImageNews;
     
 }
+
 @property(nonatomic, retain)NSArray *datasource;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 -(void)setupArray;

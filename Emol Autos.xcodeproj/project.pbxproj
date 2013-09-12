@@ -64,25 +64,25 @@
 		0C6D32851798B44B00758142 /* NEOTableControllerCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOTableControllerCar.m; sourceTree = "<group>"; };
 		0C6D32871798B78A00758142 /* NEOCellControllerCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCellControllerCar.h; sourceTree = "<group>"; };
 		0C6D32881798B78A00758142 /* NEOCellControllerCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCellControllerCar.m; sourceTree = "<group>"; };
-		0C6D328E1798CBBF00758142 /* impreza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impreza.jpg; sourceTree = "<group>"; };
+		0C6D328E1798CBBF00758142 /* impreza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = impreza.jpg; path = "Emol Autos/impreza.jpg"; sourceTree = "<group>"; };
 		0CAA9A1E17A19413007DAF54 /* NEOTableControllerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NEOTableControllerNews.h; path = ../NEOTableControllerNews.h; sourceTree = "<group>"; };
 		0CAA9A1F17A19413007DAF54 /* NEOTableControllerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NEOTableControllerNews.m; path = ../NEOTableControllerNews.m; sourceTree = "<group>"; };
-		0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_noticia2.jpg; sourceTree = "<group>"; };
-		0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_noticia3.jpg; sourceTree = "<group>"; };
-		0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_noticia1.jpg; sourceTree = "<group>"; };
+		0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_noticia2.jpg; path = "Emol Autos/img_noticia2.jpg"; sourceTree = "<group>"; };
+		0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_noticia3.jpg; path = "Emol Autos/img_noticia3.jpg"; sourceTree = "<group>"; };
+		0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_noticia1.jpg; path = "Emol Autos/img_noticia1.jpg"; sourceTree = "<group>"; };
 		0CC44B3617A1DAF90077E402 /* NEOCellControllerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOCellControllerNews.h; sourceTree = "<group>"; };
 		0CC44B3717A1DAF90077E402 /* NEOCellControllerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOCellControllerNews.m; sourceTree = "<group>"; };
 		0CC44B3917A1E1250077E402 /* NEODetailControllerNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODetailControllerNews.h; sourceTree = "<group>"; };
 		0CC44B3A17A1E1250077E402 /* NEODetailControllerNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODetailControllerNews.m; sourceTree = "<group>"; };
 		0CEBD12217A86D0900AEB4AD /* NEODetailControllerTestDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEODetailControllerTestDrive.h; sourceTree = "<group>"; };
 		0CEBD12317A86D0900AEB4AD /* NEODetailControllerTestDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEODetailControllerTestDrive.m; sourceTree = "<group>"; };
-		0CF114AA17A00C8D00145378 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
-		0CF114AC17A00CAE00145378 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
-		0CF114AE17A00CB600145378 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
-		37A73DB317D03CEC0021A65D /* galeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galeria.png; sourceTree = "<group>"; };
-		37A73DB517D0489F0021A65D /* auto-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto-40x40.png"; sourceTree = "<group>"; };
-		37A73DB717D049ED0021A65D /* news-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-40x40.png"; sourceTree = "<group>"; };
-		37A73DB917D04CA90021A65D /* Steering-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steering-40x40.png"; sourceTree = "<group>"; };
+		0CF114AA17A00C8D00145378 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img2.jpg; path = "Emol Autos/img2.jpg"; sourceTree = "<group>"; };
+		0CF114AC17A00CAE00145378 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img1.jpg; path = "Emol Autos/img1.jpg"; sourceTree = "<group>"; };
+		0CF114AE17A00CB600145378 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img3.jpg; path = "Emol Autos/img3.jpg"; sourceTree = "<group>"; };
+		37A73DB317D03CEC0021A65D /* galeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galeria.png; path = "Emol Autos/galeria.png"; sourceTree = "<group>"; };
+		37A73DB517D0489F0021A65D /* auto-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "auto-40x40.png"; path = "Emol Autos/auto-40x40.png"; sourceTree = "<group>"; };
+		37A73DB717D049ED0021A65D /* news-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news-40x40.png"; path = "Emol Autos/news-40x40.png"; sourceTree = "<group>"; };
+		37A73DB917D04CA90021A65D /* Steering-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Steering-40x40.png"; path = "Emol Autos/Steering-40x40.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,7 @@
 		0C6D32521798AAC500758142 = {
 			isa = PBXGroup;
 			children = (
+				37F7723017D69615005AE524 /* Imagen */,
 				0C6D32641798AAC500758142 /* Emol Autos */,
 				0C6D325D1798AAC500758142 /* Frameworks */,
 				0C6D325C1798AAC500758142 /* Products */,
@@ -129,17 +130,6 @@
 		0C6D32641798AAC500758142 /* Emol Autos */ = {
 			isa = PBXGroup;
 			children = (
-				0C6D328E1798CBBF00758142 /* impreza.jpg */,
-				0CF114AC17A00CAE00145378 /* img1.jpg */,
-				0CF114AA17A00C8D00145378 /* img2.jpg */,
-				0CF114AE17A00CB600145378 /* img3.jpg */,
-				37A73DB317D03CEC0021A65D /* galeria.png */,
-				0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */,
-				0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */,
-				0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */,
-				37A73DB517D0489F0021A65D /* auto-40x40.png */,
-				37A73DB717D049ED0021A65D /* news-40x40.png */,
-				37A73DB917D04CA90021A65D /* Steering-40x40.png */,
 				0C6D326D1798AAC500758142 /* NEOAppDelegate.h */,
 				0C6D326E1798AAC500758142 /* NEOAppDelegate.m */,
 				0C6D32761798AAC500758142 /* MainStoryboard.storyboard */,
@@ -178,6 +168,24 @@
 				0C6D32741798AAC500758142 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37F7723017D69615005AE524 /* Imagen */ = {
+			isa = PBXGroup;
+			children = (
+				0CC44B3117A1D9DD0077E402 /* img_noticia3.jpg */,
+				0CC44B3017A1D9DD0077E402 /* img_noticia2.jpg */,
+				0CC44B3217A1D9DD0077E402 /* img_noticia1.jpg */,
+				0C6D328E1798CBBF00758142 /* impreza.jpg */,
+				0CF114AE17A00CB600145378 /* img3.jpg */,
+				0CF114AA17A00C8D00145378 /* img2.jpg */,
+				0CF114AC17A00CAE00145378 /* img1.jpg */,
+				37A73DB517D0489F0021A65D /* auto-40x40.png */,
+				37A73DB717D049ED0021A65D /* news-40x40.png */,
+				37A73DB317D03CEC0021A65D /* galeria.png */,
+				37A73DB917D04CA90021A65D /* Steering-40x40.png */,
+			);
+			name = Imagen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

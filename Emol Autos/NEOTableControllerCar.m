@@ -54,7 +54,6 @@
     
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //code executed in the background
         //2
