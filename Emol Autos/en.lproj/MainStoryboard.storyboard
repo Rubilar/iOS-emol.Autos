@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xfL-Lf-odM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E3067" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xfL-Lf-odM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -24,11 +24,11 @@
             </objects>
             <point key="canvasLocation" x="-856" y="479"/>
         </scene>
-        <!--Navigation Controller - Busqueda-->
+        <!--Navigation Controller - Resultado-->
         <scene sceneID="0JP-To-j67">
             <objects>
                 <navigationController definesPresentationContext="YES" id="XuH-nz-MKe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Busqueda" image="auto-40x40.png" id="Z67-Ig-GeO"/>
+                    <tabBarItem key="tabBarItem" title="Resultado" id="Z67-Ig-GeO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rBr-1S-lPD">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -44,7 +44,7 @@
         <scene sceneID="CFy-qr-cvd">
             <objects>
                 <navigationController definesPresentationContext="YES" id="nHA-t5-pQf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Noticias" image="news-40x40.png" id="VJk-Bd-rG9"/>
+                    <tabBarItem key="tabBarItem" title="Noticias" id="VJk-Bd-rG9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KDg-Mt-ZyW">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -60,7 +60,7 @@
         <scene sceneID="vVg-xK-wrf">
             <objects>
                 <navigationController definesPresentationContext="YES" id="rPA-Bn-I3L" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Pruebas de Manejo" image="Steering-40x40.png" id="08Y-0g-vDD"/>
+                    <tabBarItem key="tabBarItem" title="Pruebas de Manejo" id="08Y-0g-vDD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MHo-QB-bNe">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -242,7 +242,7 @@
                                                 <constraint firstAttribute="width" constant="100" id="RgO-pd-oJW"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2013" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltp-YJ-LlY">
@@ -251,23 +251,23 @@
                                                 <constraint firstAttribute="height" constant="21" id="Rks-5j-6HB"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
-                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
+                                    <constraint firstItem="Ltp-YJ-LlY" firstAttribute="top" secondItem="Fp5-iD-zi4" secondAttribute="top" constant="30" id="09Y-gs-Cyg"/>
                                     <constraint firstItem="uwM-Mr-OFA" firstAttribute="leading" secondItem="7JB-DD-2D8" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="9Sb-5R-wwQ"/>
                                     <constraint firstAttribute="bottom" secondItem="1bL-33-nqg" secondAttribute="bottom" constant="10" id="AbB-Ps-P4v"/>
                                     <constraint firstItem="Ltp-YJ-LlY" firstAttribute="leading" secondItem="7JB-DD-2D8" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="CtS-IT-Rna"/>
-                                    <constraint firstAttribute="trailing" secondItem="esF-7s-YMN" secondAttribute="trailing" constant="20" type="default" id="KhR-sU-oiU"/>
-                                    <constraint firstItem="esF-7s-YMN" firstAttribute="centerY" secondItem="Ltp-YJ-LlY" secondAttribute="centerY" type="default" id="Kmm-wC-DtW"/>
+                                    <constraint firstItem="esF-7s-YMN" firstAttribute="top" secondItem="uwM-Mr-OFA" secondAttribute="top" type="default" id="LaI-8z-bZA"/>
                                     <constraint firstItem="7JB-DD-2D8" firstAttribute="centerY" secondItem="Fp5-iD-zi4" secondAttribute="centerY" type="default" id="OLJ-dn-q0p"/>
+                                    <constraint firstItem="esF-7s-YMN" firstAttribute="leading" secondItem="Fp5-iD-zi4" secondAttribute="leading" constant="151" id="QNf-LL-j3K"/>
                                     <constraint firstItem="uwM-Mr-OFA" firstAttribute="top" secondItem="Fp5-iD-zi4" secondAttribute="top" constant="5" id="XXt-DS-Iah"/>
                                     <constraint firstItem="1bL-33-nqg" firstAttribute="leading" secondItem="7JB-DD-2D8" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="eSo-WC-cEV"/>
                                     <constraint firstItem="7JB-DD-2D8" firstAttribute="leading" secondItem="Fp5-iD-zi4" secondAttribute="leading" constant="6" id="xFY-fX-9NG"/>
-                                    <constraint firstItem="esF-7s-YMN" firstAttribute="top" secondItem="Fp5-iD-zi4" secondAttribute="top" constant="25" id="yob-Kh-lX2"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="brand" destination="uwM-Mr-OFA" id="e1C-jB-XsQ"/>
@@ -286,7 +286,6 @@
                     <tabBarItem key="tabBarItem" title="Resultado" id="ERB-kx-k1a"/>
                     <navigationItem key="navigationItem" title="Automóviles" id="EBq-cX-jtI"/>
                     <connections>
-                        <outlet property="mainView" destination="qJM-2p-A6f" id="mf4-q8-f2F"/>
                         <outlet property="tableView" destination="qJM-2p-A6f" id="Yz3-5I-x3c"/>
                     </connections>
                 </tableViewController>
@@ -471,11 +470,6 @@
             <point key="canvasLocation" x="1002" y="-253"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Steering-40x40.png" width="40" height="40"/>
-        <image name="auto-40x40.png" width="40" height="40"/>
-        <image name="news-40x40.png" width="40" height="40"/>
-    </resources>
     <classes>
         <class className="NEOCellControllerCar" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NEOCellControllerCar.h"/>
@@ -533,9 +527,6 @@
         <class className="NEOTableControllerCar" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NEOTableControllerCar.h"/>
             <relationships>
-                <relationship kind="outlet" name="buttonStyle" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="leftView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="mainView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>
